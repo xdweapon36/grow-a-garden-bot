@@ -1,24 +1,4 @@
-import discord
-import re
-import requests
-from config import MTM4Mzk5OTYyMzM4Njg5NDQyOA.G7APpn.9FUsYRNiyagvucg7KPFdeGAqM0W5eA7V2ONWvY, CfuCRrkAr, NTFY_TOPIC
-
-default_priority_items = [
-    "Nectarine", "Mango", "Grape", "Mushroom", "Pepper", "Cacao",
-    "Beanstalk", "Stone Pillar", "Bird Bath", "Lamp Post",
-    "Tractor", "Lightning Rod", "Godly"
-]
-
-high_priority_items = [
-    "Beanstalk", "Friendship Pot", "Ember Lily", "Hive Fruit", "Master Sprinkler",
-    "Honey Sprinkler", "Bee Egg", "Bug Egg", "Mythical Egg"
-]
-
-color_map = {
-    "Carrot": "\033[92m", "Strawberry": "\033[92m", "Blueberry": "\033[92m", "Orange": "\033[92m",
-    "Tomato": "\033[92m", "Corn": "\033[92m", "Daffodil": "\033[92m",
-    "Watermelon": "\033[93m", "Pumpkin": "\033[93m", "Apple": "\033[93m", "Bamboo": "\033[93m",
-    "Coconut": "\033[33m", "Cactus": "\033[33m", "Dragon": "\033[33m", "Mango": "\033[33m",
+33m", "Dragon": "\033[33m", "Mango": "\033[33m",
     "Grape": "\033[95m", "Mushroom": "\033[95m", "Pepper": "\033[95m", "Cacao": "\033[95m",
     "Beanstalk": "\033[96m",
     "Watering": "\033[92m", "Trowel": "\033[92m", "Recall": "\033[92m",
