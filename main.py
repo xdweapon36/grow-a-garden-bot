@@ -1,7 +1,7 @@
 import discord
 import re
 import requests
-from config import DISCORD_TOKEN, CHANNEL_IDS, NTFY_TOPIC
+from config import MTM4Mzk5OTYyMzM4Njg5NDQyOA.G7APpn.9FUsYRNiyagvucg7KPFdeGAqM0W5eA7V2ONWvY, CfuCRrkAr, NTFY_TOPIC
 
 default_priority_items = [
     "Nectarine", "Mango", "Grape", "Mushroom", "Pepper", "Cacao",
